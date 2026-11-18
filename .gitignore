@@ -1,0 +1,31 @@
+# Maven / Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
